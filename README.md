@@ -18,3 +18,10 @@ Use imbalanced-learn and scikit-learn libraries to build and evaluate models usi
 	3. Generated a Confusion Matrix.
 	4. Printed the Classification Reports.
 
+Oversampled the data using the RandomOverSampler.
+	- Balanced Accuracy Score: 65.12%
+	- Precision: high_risk = 0.01, low_risk = 1.00
+	- Recall: high_risk = 0.74, low_risk = 0.56
+	- Imbalanced Classification Report:
+	
+	![alt text](
