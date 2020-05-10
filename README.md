@@ -92,3 +92,29 @@ EasyEnsembleClassifier
 ![alt text](https://github.com/Al-Huneidi/Credit_Risk/blob/master/ScreenShots/credit-risk-ensemble/EasyEnsemble_class_report.png)
 
 4. For the BalancedRandomForestClassifier, printed the feature importance, sort in descending order (from most to least important feature), along with the feature score.
+
+### Extension Analysis Report:
+
+The Balanced Accuracy Score is telling us the percentage of predictions that are correct and the best model is EasyEnsembleClassifier with the highest percentage of 93.16%. This is good because it means a high percentage of the predictions are correct.
+
+Precision tells us how reliable a positive classification is.  The BalancedRandomForestClassifier precision is 100% for the low-risk applicants and 4% for the high-risk applicants.  The EasyEnsembleClassifier  precision is 100% for the low-risk applicants and 9% for the high-risk applicants so it is slightly better at predicting the high-risk applicants but that is not good for business because if you give credit to people with a high risk of not paying their bill the company will lose money.
+
+Recall (Sensitivity) indicates the ability of the classifier to find all positive samples. Looking at the recall numbers, both the models did better at predicting the high-risk applications with the EasyEnsembleClassifier model generating the best results at 92%.
+
+
+The EasyEnsembleClassifier is the best of all the models used at predicting high-risk applications with a combination of the highest Balanced Accuracy Score of 93.16% and a Recall of 92%. Since recall tends to more agressive at detecting the intended target this is a better model.
+
+To improve the BalancedRandomForestClassifier model, I recommend dropping some of the lower ranked features, there are many.  By having so many features, they are reducing the importance of features extremely relevant as to whether or not an application is found to be low-risk or high-risk and causing the model to be less accurate in its ability to predict accurately.
+
+
+Notebooks:
+
+credit_risk_ensemble
+
+credit_risk_resampling
+
+
+Resource:
+
+LoanStats_2019Q1.csv
+
