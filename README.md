@@ -54,7 +54,8 @@ Used a combination approach with the SMOTEENN algorithm.
 	
 ![alt text](https://github.com/Al-Huneidi/Credit_Risk/blob/master/ScreenShots/credit-risk-resampling/SMOTEEN_Class_report.png)
 
-Analysis Report:
+## Analysis Report
+
 The Balanced Accuracy Score is telling us the percentage of predictions that are correct and the best model is SMOTE with the highest percentage of 65.48%.  For the sake of not losing money, I think the percentage of predictions that are correct needs to be higher.
 
 Precision tells us how reliable a positive classification is and all the models give us a precision of 100% for the low-risk applicants and 1% for the high-risk applicants so none of the models are good at predicting the high-risk applicants and that is not good for business because if you give credit to people with a high risk of not paying their bill the company will lose money.
