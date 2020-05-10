@@ -52,6 +52,15 @@ Used a combination approach with the SMOTEENN algorithm.
 	- Recall: high_risk = 72%, low_risk = 57%
 	- Imbalanced Classification Report: 
 	
-![alt text](
+![alt text](https://github.com/Al-Huneidi/Credit_Risk/blob/master/ScreenShots/credit-risk-resampling/SMOTEEN_Class_report.png)
+
+Analysis Report:
+The Balanced Accuracy Score is telling us the percentage of predictions that are correct and the best model is SMOTE with the highest percentage of 65.48%.  For the sake of not losing money, I think the percentage of predictions that are correct needs to be higher.
+
+Precision tells us how reliable a positive classification is and all the models give us a precision of 100% for the low-risk applicants and 1% for the high-risk applicants so none of the models are good at predicting the high-risk applicants and that is not good for business because if you give credit to people with a high risk of not paying their bill the company will lose money.
+
+Recall (Sensitivity) indicates the ability of the classifier to find all positive samples. Looking at the recall numbers, all the models did better at finding the high-risk people with the RandomOverSampler model generating the best results at 74% for high-risk and 56% for low-risk ( not a high percentage but over 50%). 
+
+Overall, Recall seems to be the most important because it is better even if it means a certain number of false positives, than to miss those with a high-risk. Essentially, highly sensitive test and algorithms tend to be aggressive as they do a good job of detecting the intended target, even if that means they result in a number of false positives.  In this case, I think it is better to have false positives than not because you really want to target the high-risk applications.  The false positives in a highly sensitive test are accepted as a cost of doing business.
 
 
