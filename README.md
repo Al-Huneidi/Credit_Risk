@@ -19,9 +19,20 @@ Use imbalanced-learn and scikit-learn libraries to build and evaluate models usi
 	4. Printed the Classification Reports.
 
 Oversampled the data using the RandomOverSampler.
+
 	- Balanced Accuracy Score: 65.12%
-	- Precision: high_risk = 0.01, low_risk = 1.00
-	- Recall: high_risk = 0.74, low_risk = 0.56
+	- Precision: high_risk = 1%, low_risk = 100%
+	- Recall: high_risk = 74%, low_risk = 56%
 	- Imbalanced Classification Report:
 	
 ![alt text](https://github.com/Al-Huneidi/Credit_Risk/blob/master/ScreenShots/credit-risk-resampling/RandomOverSampler_Class_Report.png)
+
+Oversampled the data using the SMOTE algorithms.
+
+	- Balanced Accuracy Score: 65.48%
+	- Precision: high_risk = 1%, low_risk = 100%
+	- Recall: high_risk = 62%, low_risk = 69%                                                                                                                                                  
+	- Imbalanced Classification Report:
+
+![alt text](
+
