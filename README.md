@@ -34,5 +34,13 @@ Oversampled the data using the SMOTE algorithms.
 	- Recall: high_risk = 62%, low_risk = 69%                                                                                                                                                  
 	- Imbalanced Classification Report:
 
-![alt text](
+![alt text](https://github.com/Al-Huneidi/Credit_Risk/blob/master/ScreenShots/credit-risk-resampling/SMOTE_Oversampling_Class_Report.png)
 
+Undersampled the data using the ClusterCentroids algorithm.
+
+	- Balanced Accuracy Score: 53.3%
+	- Precision: high_risk = 1%, low_risk = 100%
+	- Recall: high_risk = 66%, low_risk = 40%
+	- Imbalanced Classification Report: 
+	
+![alt text](
