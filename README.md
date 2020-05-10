@@ -43,4 +43,15 @@ Undersampled the data using the ClusterCentroids algorithm.
 	- Recall: high_risk = 66%, low_risk = 40%
 	- Imbalanced Classification Report: 
 	
+![alt text](https://github.com/Al-Huneidi/Credit_Risk/blob/master/ScreenShots/credit-risk-resampling/ClusterCentroids_Class_Report.png)
+
+Used a combination approach with the SMOTEENN algorithm.
+
+	- Balanced Accuracy Score: 64.83%
+	- Precision: high_risk = 1%, low_risk = 100%
+	- Recall: high_risk = 72%, low_risk = 57%
+	- Imbalanced Classification Report: 
+	
 ![alt text](
+
+
