@@ -10,3 +10,11 @@ Use imbalanced-learn and scikit-learn libraries to build and evaluate models usi
 	•	Implement machine learning models.
 	•	Use resampling to attempt to address class imbalance.
 	•	Evaluate the performance of machine learning models.
+
+## Process - For each of the models RandomOverSampler, SMOTE, Cluster Centroids, and SMOTEENN:
+
+	1. Trained a logistic regression classifier (from Scikit-learn) using the resampled data.
+	2. Calculated the balanced accuracy score using balanced_accuracy_score.
+	3. Generated a Confusion Matrix.
+	4. Printed the Classification Reports.
+
