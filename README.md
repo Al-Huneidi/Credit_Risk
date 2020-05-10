@@ -24,4 +24,4 @@ Oversampled the data using the RandomOverSampler.
 	- Recall: high_risk = 0.74, low_risk = 0.56
 	- Imbalanced Classification Report:
 	
-	![alt text](https://github.com/Al-Huneidi/Credit_Risk/blob/master/ScreenShots/credit-risk-resampling/RandomOverSampler_Class_Report.png)
+![alt text](https://github.com/Al-Huneidi/Credit_Risk/blob/master/ScreenShots/credit-risk-resampling/RandomOverSampler_Class_Report.png)
