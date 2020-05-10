@@ -4,3 +4,9 @@ Used Python to build and evaluate several machine learning models to predict cre
 # Challenge Overview
 
 Use imbalanced-learn and scikit-learn libraries to build and evaluate models using resampling. Evaluated the performance of these models and provide a recommendation on whether they should be used to predict credit risk.
+
+## Objectives
+
+	•	Implement machine learning models.
+	•	Use resampling to attempt to address class imbalance.
+	•	Evaluate the performance of machine learning models.
