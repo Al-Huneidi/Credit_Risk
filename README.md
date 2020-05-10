@@ -83,12 +83,12 @@ BalancedRandomForestClassifier
 	- Precision Score: high-risk 4%, low-risk 100%
 	- Recall Score: high-risk 67%, low-risk 90%
 
-![alt text](
+![alt text](https://github.com/Al-Huneidi/Credit_Risk/blob/master/ScreenShots/credit-risk-ensemble/BalancedRandomForest_class_report.png)
 		
 EasyEnsembleClassifier
 	- Precision Score: high-risk 9%, low-risk 100%
 	- Recall Score: high-risk 92%, low-risk 94%
 
-Image
+![alt text](
 
 4. For the BalancedRandomForestClassifier, printed the feature importance, sort in descending order (from most to least important feature), along with the feature score.
