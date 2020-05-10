@@ -65,3 +65,30 @@ Recall (Sensitivity) indicates the ability of the classifier to find all positiv
 Overall, Recall seems to be the most important because it is better even if it means a certain number of false positives, than to miss those with a high-risk. Essentially, highly sensitive test and algorithms tend to be aggressive as they do a good job of detecting the intended target, even if that means they result in a number of false positives.  In this case, I think it is better to have false positives than not because you really want to target the high-risk applications.  The false positives in a highly sensitive test are accepted as a cost of doing business.
 
 
+# Challenge Extension
+For the extension, trained and compared two different ensemble classifiers to predict loan risk and evaluate each model to combine resampling and model training into a single step. 
+
+Used BalancedRandomForestClassifer and EasyEnsembleClassifier models, using 100 estimators for both classifiers to train the models and generate predictions.
+
+1. Balanced Accuracy Scores:
+
+	- BalancedRandowmForestClassifier - 78.55%
+	- Easy EnsembleClassifier - 93.16%
+
+2. Generated a confusion matrix for each method.
+
+3. Printed the classification reports
+
+BalancedRandomForestClassifier
+	- Precision Score: high-risk 4%, low-risk 100%
+	- Recall Score: high-risk 67%, low-risk 90%
+
+![alt text](
+		
+EasyEnsembleClassifier
+	- Precision Score: high-risk 9%, low-risk 100%
+	- Recall Score: high-risk 92%, low-risk 94%
+
+Image
+
+4. For the BalancedRandomForestClassifier, printed the feature importance, sort in descending order (from most to least important feature), along with the feature score.
